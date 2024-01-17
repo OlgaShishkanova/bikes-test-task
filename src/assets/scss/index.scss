@@ -1,0 +1,13 @@
+$primary: #afd057;
+$secondary: #707070;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  // success: $success,
+  // danger: $danger,
+  // light: $light,,
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import "./app.scss";

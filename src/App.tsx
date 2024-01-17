@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
+import "./assets/scss/App.scss";
+import RoutesComponent from "./RoutesComponent";
 
 const App = () => {
   return (
     <div className="">
-      New website
+      <RoutesComponent />
     </div>
   );
 };

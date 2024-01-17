@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "question": "Where do you like to travel?",
+      "answers": [
+        {
+          "id": "1_1",
+          "text": "Cities",
+          "bikeType": "1"
+        },
+        {
+          "id": "1_2",
+          "text": "Nature/Mountains",
+          "bikeType": "2"
+        },
+        {
+          "id": "1_3",
+          "text": "I love to travel everywhere",
+          "bikeType": "3"
+        }
+      ]
+    },
+    {
+        "id": "2",
+        "question": "Where do you like to cycle more?",
+        "answers": [
+          {
+            "id": "2_1",
+            "text": "City",
+            "bikeType": "1"
+          },
+          {
+            "id": "2_2",
+            "text": "In nature",
+            "bikeType": "2"
+          },
+          {
+            "id": "2_3",
+            "text": "Both - in city and in nature",
+            "bikeType": "3"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "How much effort would you like to make when you cycle?",
+        "answers": [
+          {
+            "id": "3_1",
+            "text": "A little",
+            "bikeType": "1"
+          },
+          {
+            "id": "3_2",
+            "text": "Much",
+            "bikeType": "2"
+          },
+          {
+            "id": "3_3",
+            "text": "I can make much effort but only sometimes",
+            "bikeType": "3"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "What is the most important to you?",
+        "answers": [
+          {
+            "id": "4_1",
+            "text": "Comfort",
+            "bikeType": "1"
+          },
+          {
+            "id": "4_2",
+            "text": "Adventure",
+            "bikeType": "2"
+          },
+          {
+            "id": "4_3",
+            "text": "Comfortable adventure :) ",
+            "bikeType": "3"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "How important is the weight of bicycle for you?",
+        "answers": [
+          {
+            "id": "5_1",
+            "text": "Not important",
+            "bikeType": "1"
+          },
+          {
+            "id": "5_2",
+            "text": "Important. The lighter the better.",
+            "bikeType": "2"
+          },
+          {
+            "id": "5_3",
+            "text": "Prefer lighter but not critical.",
+            "bikeType": "3"
+          }
+        ]
+      }
+  ]
+}
