@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/scss/App.scss";
+import "./assets/scss/index.scss";
 import RoutesComponent from "./RoutesComponent";
 
 const App = () => {
