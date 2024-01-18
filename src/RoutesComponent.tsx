@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./shared/MainLayout";
-import BikeTest from "./pages/BikeTest/BikeTest";
+import BikeTestPage from "./pages/BikeTest/BikeTestPage";
 
 const RoutesComponent: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const RoutesComponent: React.FC = () => {
           path="/"
           element={
             <MainLayout>
-              <BikeTest />
+              <BikeTestPage />
             </MainLayout>
           }
         />
