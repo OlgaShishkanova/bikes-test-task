@@ -2,15 +2,18 @@
   "data": {
     "1": {
       "title": "City Bike",
-      "description": "City Bike is amazing!"
+      "description": "City Bike is amazing!",
+      "img": "https://www.bike-discount.de/media/image/22/0b/19/649260_F1_10_800x800@2x.jpg"
     },
     "2": {
       "title": "Hybrid Bike",
-      "description": "Hybrid Bike is amazing!"
+      "description": "Hybrid Bike is amazing!",
+      "img": "https://www.bike-discount.de/media/image/c2/19/96/548100_light_zoom_800x800@2x.jpg"
     },
     "3": {
       "title": "Off-Road Bike",
-      "description": "Off-Road Bike is amazing!"
+      "description": "Off-Road Bike is amazing!",
+      "img": "https://www.bike-discount.de/media/image/c9/46/af/conway-02822823-20124758-WME-3_800x800@2x.jpg"
     }
   }
 }

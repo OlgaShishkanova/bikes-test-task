@@ -36,7 +36,7 @@ const BikesList = () => {
         <option value="2">Hybrid Bike</option>
         <option value="3">Off-Road Bike</option>
       </Form.Select>
-      <div className="bikes-list">
+      <div className="bikes-list mt-3">
         {finalData.map((item, key) => {
           const price = new Intl.NumberFormat("de-DE", {
             style: "currency",

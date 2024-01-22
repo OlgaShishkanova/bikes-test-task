@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import bikeType from "../../staticData/bikeTypeData.json";
 import { BikeTypeData } from "../../types";
-import { Button } from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 interface Props {
@@ -10,13 +10,14 @@ interface Props {
 }
 
 const BikeTestResult: React.FC<Props> = ({ changeTestResult, testResult }) => {
-  const { title, description } = (bikeType.data as unknown as BikeTypeData)[
-    testResult
-  ];
+  const { title, description, img } = (
+    bikeType.data as unknown as BikeTypeData
+  )[testResult];
   return (
-    <div>
+    <div className="test-result">
       <h4>Result: {title}</h4>
-      <div>{description}</div>
+      <Image src={img} />
+      <div className="mt-2">{description}</div>
       <div className="d-flex justify-content-around">
         <Button
           className="mt-3"
