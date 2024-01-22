@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./shared/MainLayout";
 import BikeTestPage from "./pages/BikeTest/BikeTestPage";
 import Home from "./pages/Home/Home";
+import BikesList from "./pages/BikesList/BikesList";
 
 const RoutesComponent: React.FC = () => {
   return (
@@ -21,6 +22,14 @@ const RoutesComponent: React.FC = () => {
           element={
             <MainLayout>
               <BikeTestPage />
+            </MainLayout>
+          }
+        />
+         <Route
+          path="/bikes"
+          element={
+            <MainLayout>
+              <BikesList />
             </MainLayout>
           }
         />

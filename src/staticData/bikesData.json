@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "bikeType": "1",
+      "name": "City Cube 1",
+      "img": "https://www.bike-discount.de/media/image/88/51/00/649250_F1_10_800x800@2x.jpg",
+      "desc": "Sometimes when something looks right, it just is right. That's the principle CUBE has applied to the Ella Ride, whose effortlessly stylish lines disguise a thoroughly thought out bike that's as easy to live with as it is fun to ride.",
+      "price": 500,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "green",
+        "brakes": "V-Brake",
+        "saddle": "CUBE Retro"
+      }
+    },
+    {
+      "id": "2",
+      "bikeType": "1",
+      "name": "City Cube 2",
+      "img": "https://www.bike-discount.de/media/image/22/0b/19/649260_F1_10_800x800@2x.jpg",
+      "desc": "Sometimes when something looks right, it just is right. That's the principle CUBE has applied to the Ella Ride, whose effortlessly stylish lines disguise a thoroughly thought out bike that's as easy to live with as it is fun to ride.",
+      "price": 550,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "honey",
+        "brakes": "V-Brake",
+        "saddle": "CUBE Retro"
+      }
+    },
+    {
+      "id": "3",
+      "bikeType": "1",
+      "name": "City Cube 3",
+      "img": "https://www.bike-discount.de/media/image/54/97/32/Ella-Cruise-Easy-Entry-twinkle-n-cream-649210_800x800@2x.jpg",
+      "desc": "Sometimes when something looks right, it just is right. That's the principle CUBE has applied to the Ella Ride, whose effortlessly stylish lines disguise a thoroughly thought out bike that's as easy to live with as it is fun to ride.",
+      "price": 450,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "pink",
+        "brakes": "V-Brake",
+        "saddle": "CUBE Retro"
+      }
+    },
+    {
+      "id": "4",
+      "bikeType": "3",
+      "name": "Radon 1",
+      "img": "https://www.bike-discount.de/media/image/9d/c6/d3/h-s_website_vorlage_STAGE_2023_SLIDE_TRAIL_9-03Buwj2qVPXL02_800x800@2x.jpg",
+      "desc": "The SLIDE TRAIL 9.0 shines again this year with a fantastic equipment package and an absolutely top price-performance ratio.",
+      "price": 2550,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "SLIDE TRAIL",
+        "color": "coolgray",
+        "brakes": "Magura MT5",
+        "saddle": "SDG Bel Air V3"
+      }
+    },
+    {
+      "id": "5",
+      "bikeType": "3",
+      "name": "Radon 2",
+      "img": "https://www.bike-discount.de/media/image/d1/85/ec/h-s_website_vorlage_STAGE_2023_SLIDE_TRAIL_8-0_800x800@2x.jpg",
+      "desc": "The SLIDE TRAIL 9.0 shines again this year with a fantastic equipment package and an absolutely top price-performance ratio.",
+      "price": 2000,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "SLIDE TRAIL",
+        "color": "black",
+        "brakes": "Magura MT5",
+        "saddle": "SDG Bel Air V3"
+      }
+    },
+    {
+      "id": "6",
+      "bikeType": "3",
+      "name": "Radon 3",
+      "img": "https://www.bike-discount.de/media/image/c9/46/af/conway-02822823-20124758-WME-3_800x800@2x.jpg",
+      "desc": "The SLIDE TRAIL 9.0 shines again this year with a fantastic equipment package and an absolutely top price-performance ratio.",
+      "price": 3550,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "SLIDE TRAIL",
+        "color": "red",
+        "brakes": "Magura MT5",
+        "saddle": "SDG Bel Air V3"
+      }
+    },
+    {
+      "id": "7",
+      "bikeType": "2",
+      "name": "Cube Touring 1",
+      "img": "https://www.bike-discount.de/media/image/12/e4/a9/648060_F1_00_800x800@2x.jpg",
+      "desc": "The Cube Touring ONE's full equipment package and comfortable design is all you need to broaden your riding horizons.",
+      "price": 650,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "grey",
+        "brakes": "Shimano BR-MT200",
+        "saddle": "Natural Fit Sequence Comfort"
+      }
+    },
+    {
+      "id": "8",
+      "bikeType": "2",
+      "name": "Cube Touring 2",
+      "img": "https://www.bike-discount.de/media/image/c2/19/96/548100_light_zoom_800x800@2x.jpg",
+      "desc": "The Cube Touring ONE's full equipment package and comfortable design is all you need to broaden your riding horizons.",
+      "price": 450,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "green",
+        "brakes": "Shimano BR-MT200",
+        "saddle": "Natural Fit Sequence Comfort"
+      }
+    },
+    {
+      "id": "9",
+      "bikeType": "2",
+      "name": "Cube Touring 3",
+      "img": "https://www.bike-discount.de/media/image/d6/46/11/CUBE-Touring-Lady-black-n-metal-648100-1_800x800@2x.jpg",
+      "desc": "The Cube Touring ONE's full equipment package and comfortable design is all you need to broaden your riding horizons.",
+      "price": 520,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "black",
+        "brakes": "Shimano BR-MT200",
+        "saddle": "Natural Fit Sequence Comfort"
+      }
+    }
+  ]
+}
