@@ -1,7 +1,8 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./shared/MainLayout";
 import BikeTestPage from "./pages/BikeTest/BikeTestPage";
+import Home from "./pages/Home/Home";
 
 const RoutesComponent: React.FC = () => {
   return (
@@ -10,27 +11,19 @@ const RoutesComponent: React.FC = () => {
         <Route
           path="/"
           element={
+            <MainLayout noClass={true}>
+              <Home />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/test"
+          element={
             <MainLayout>
               <BikeTestPage />
             </MainLayout>
           }
         />
-        {/* <Route
-          path="/bikes"
-          element={
-            <MainLayout>
-              <CategoriesList />
-            </MainLayout>
-          }
-        />
-         <Route
-          path="/cart"
-          element={
-            <MainLayout>
-              <CategoriesList />
-            </MainLayout>
-          }
-        /> */}
       </Routes>
     </Router>
   );
