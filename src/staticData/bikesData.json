@@ -134,6 +134,21 @@
         "brakes": "Shimano BR-MT200",
         "saddle": "Natural Fit Sequence Comfort"
       }
+    },
+    {
+      "id": "10",
+      "bikeType": "1",
+      "name": "City Cube Cruise",
+      "img": "https://www.bike-discount.de/media/image/19/05/06/649200_F1_10_800x800@2x.jpg",
+      "desc": "Form over function? Not at all. The Ella Cruise's sleek styling may be what catches your eye initially, but it won't be long before you'll fall for its pragmatic features, too.",
+      "price": 599,
+      "currency": "EUR",
+      "configuration": {
+        "frame": "Aluminium Superlite",
+        "color": "metallicstone",
+        "brakes": "V-Brake",
+        "saddle": "CUBE Retro"
+      }
     }
   ]
 }

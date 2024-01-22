@@ -4,6 +4,7 @@ import MainLayout from "./shared/MainLayout";
 import BikeTestPage from "./pages/BikeTest/BikeTestPage";
 import Home from "./pages/Home/Home";
 import BikesList from "./pages/BikesList/BikesList";
+import BikeItem from "./pages/BikeItem/BikeItem";
 
 const RoutesComponent: React.FC = () => {
   return (
@@ -25,11 +26,19 @@ const RoutesComponent: React.FC = () => {
             </MainLayout>
           }
         />
-         <Route
+        <Route
           path="/bikes"
           element={
             <MainLayout>
               <BikesList />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/bike/:id"
+          element={
+            <MainLayout>
+              <BikeItem />
             </MainLayout>
           }
         />

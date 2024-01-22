@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Form, Image } from "react-bootstrap";
 import bikesData from "../../staticData/bikesData.json";
 import {
@@ -7,6 +7,7 @@ import {
   useNavigate,
   useLocation,
 } from "react-router-dom";
+import BikeListItem from "./BikeListItem";
 
 const BikesList = () => {
   const [searchParams] = useSearchParams();
@@ -38,17 +39,7 @@ const BikesList = () => {
       </Form.Select>
       <div className="bikes-list mt-3">
         {finalData.map((item, key) => {
-          const price = new Intl.NumberFormat("de-DE", {
-            style: "currency",
-            currency: "EUR",
-          }).format(item.price);
-          return (
-            <div className="bikes-list__item" key={item.id}>
-              <Image src={item.img} />
-              <div className="fw-bold my-1">{item.name}</div>
-              <div>Price: {price}</div>
-            </div>
-          );
+          return <BikeListItem item={item} key={item.id} />;
         })}
       </div>
     </>
