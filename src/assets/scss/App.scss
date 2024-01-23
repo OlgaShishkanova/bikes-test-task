@@ -59,10 +59,12 @@ img {
   width: 100%;
 }
 .bike-item {
+  display: flex;
+  align-items: start;
   &__img {
     text-align: center;
     img {
-      width: 60%;
+      width: 90%;
     }
   }
 }

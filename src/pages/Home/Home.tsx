@@ -7,6 +7,21 @@ const Home = () => {
     <>
       <div
         className="home__section"
+        style={{ backgroundColor: "rgba(245, 221, 39, 0.63)" }}
+      >
+        <div className="home__img">
+          <Image src="https://pngimg.com/uploads/bicycle/bicycle_PNG5374.png" />
+        </div>
+
+        <div className="home__text">
+          <div className="home__text--big">Check all bikes what we have</div>
+          <Link to="/bikes" className="btn btn-primary">
+            Check the list
+          </Link>
+        </div>
+      </div>
+      <div
+        className="home__section"
         style={{ backgroundColor: "rgba(39, 192, 245, 0.73)" }}
       >
         <div className="home__img">
@@ -19,21 +34,6 @@ const Home = () => {
           </div>
           <Link to="/test" className="btn btn-primary">
             Find out
-          </Link>
-        </div>
-      </div>
-      <div
-        className="home__section"
-        style={{ backgroundColor: "rgba(245, 221, 39, 0.63)" }}
-      >
-        <div className="home__img">
-          <Image src="https://pngimg.com/uploads/bicycle/bicycle_PNG5374.png" />
-        </div>
-
-        <div className="home__text">
-          <div className="home__text--big">Check all bikes what we have</div>
-          <Link to="/bikes" className="btn btn-primary">
-            Check the list
           </Link>
         </div>
       </div>
