@@ -1,4 +1,3 @@
-import React from "react";
 import { Image } from "react-bootstrap";
 import { BikeItemType } from "../../types";
 import bikesData from "../../staticData/bikesData.json";
@@ -7,10 +6,13 @@ import { useParams } from "react-router-dom";
 
 const BikeItem = () => {
   const { id } = useParams();
-  const item: BikeItemType = bikesData.data.find(
+  const item: BikeItemType | undefined = bikesData.data.find(
     (i) => i.id === id
-  ) as BikeItemType;
-  const price = formatPrice(item.price);
+  );
+  if (!item) {
+    return <div>The bicycle does not exist.</div>;
+  }
+  const price = formatPrice(item.price, "de-DE", "EUR");
   return (
     <div className="bike-item">
       <div className="bike-item__img">

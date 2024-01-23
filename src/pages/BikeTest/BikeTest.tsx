@@ -17,8 +17,8 @@ const BikeTest: React.FC<Props> = ({ changeTestResult }) => {
     handleSubmit,
     formState: { errors },
   } = useForm<IFormInput>();
-  const calculateTheMostFrequentNumber = (arr: (string | number)[]) => {
-    const frequencyMap: Record<string | number, number> = {};
+  const calculateTheMostFrequentNumber = (arr: string[]) => {
+    const frequencyMap: Record<string, number> = {};
     for (const item of arr) {
       frequencyMap[item] = (frequencyMap[item] || 0) + 1;
     }
@@ -44,7 +44,7 @@ const BikeTest: React.FC<Props> = ({ changeTestResult }) => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        {testQuestions.data?.map((item, key) => {
+        {testQuestions.data?.map((item) => {
           return (
             <div key={item.id}>
               <div className="fw-bold my-1">

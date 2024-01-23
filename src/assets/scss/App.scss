@@ -60,7 +60,7 @@ img {
 }
 .bike-item {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   &__img {
     text-align: center;
     img {

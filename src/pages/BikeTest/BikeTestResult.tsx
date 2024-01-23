@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import bikeType from "../../staticData/bikeTypeData.json";
 import { BikeTypeData } from "../../types";
 import { Button, Image } from "react-bootstrap";

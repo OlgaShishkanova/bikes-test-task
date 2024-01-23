@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import BikeTest from "./BikeTest";
 import BikeTestResult from "./BikeTestResult";
 

@@ -1,5 +1,4 @@
-import React from "react";
-import { Form, Image } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import bikesData from "../../staticData/bikesData.json";
 import {
   useSearchParams,
@@ -32,13 +31,13 @@ const BikesList = () => {
         value={bikeType || ""}
         onChange={(e) => onSelect(e.currentTarget.value)}
       >
-        <option value="">Bike Type</option>
+        <option value="">Choose Bike Type</option>
         <option value="1">City Bike</option>
         <option value="2">Hybrid Bike</option>
         <option value="3">Off-Road Bike</option>
       </Form.Select>
       <div className="bikes-list mt-3">
-        {finalData.map((item, key) => {
+        {finalData.map((item) => {
           return <BikeListItem item={item} key={item.id} />;
         })}
       </div>
